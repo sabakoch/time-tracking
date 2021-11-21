@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Rubik",sans-serif;
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+}
+
+
+.grid-container{
+  margin-top: 160px;
+
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-gap: 20px;
+
+    width: 80%;
+    margin-left: 10%;
+}
+
+.grid-container-two{
+    display: grid;
+    grid-template-columns: 33% auto auto;
+    grid-gap: 20px;
+}
+
+.person{
+    padding: 20px 0 0 30px;
+    background-color: #5847eb;
+    border-radius: 15px;
+}
+
+.josh{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+}
+
+.josh-img{
+    width: 30%;
+    border: solid white 2px;
+    border-radius: 50%;
+}
+
+.name-div{
+    padding: 50px 0 60px;
+    border-radius: 15px;
+}
+
+.josh-report{
+    font-size: 18px;
+    color: hsl(236, 100%, 87%);
+    font-weight: 200;
+    font-family: Rubik;
+}
+
+.josh-name{
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+    font-family: Rubik;
+}
+
+.change-time a{
+    padding: 10px 0 10px 30px;
+    display: block;
+    color: hsl(236, 100%, 87%);
+    text-decoration: none;
+}
+
+
+/* time tracking numbers tracking */
+.work{
+  overflow: hidden;
+    background-color: hsl(15, 100%, 70%);
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .work-svg{
+    margin-top: -10px;
+    margin-right: 20px;
+    float: right;
+    width: 79px; 
+    height: 79px;
+  }
+  .work-div{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    width: 100%; 
+    height: 75%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 25px;
+    transition:  .3s ;
+  }
+
+  .work-div:hover{
+    background-color: #34397b;
+  }
+  
+  .play{
+    overflow: hidden;
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .play-svg{
+    margin-top: -10px;
+    margin-right: 20px;
+    float: right;
+    width: 79px; 
+    height: 79px;
+  }
+  .play-div{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    bottom: 0px; 
+    width: 100%; 
+    height: 75%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 25px;
+    transition:  .3s ;
+  }
+
+  .play-div:hover{
+    background-color: #34397b;
+  }
+  
+  .study{
+    overflow: hidden;
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .study-svg{
+    margin-top: -10px;
+    margin-right: 20px;
+    float: right;
+    width: 79px; 
+    height: 79px;
+  }
+  .study-div{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    bottom: 0px; 
+    width: 100%; 
+    height: 75%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 25px;
+    transition:  .3s ;
+  }
+
+  .study-div:hover{
+    background-color: #34397b;
+  }
+  
+  .exercise{
+    overflow: hidden;
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .exercise-svg{
+    margin-top: 0px;
+    margin-right: 20px;
+    float: right;
+    width: 79px; 
+    height: 79px;
+  }
+  .exercise-div{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    bottom: 0px; 
+    width: 100%; 
+    height: 75%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 25px;
+    transition:  .3s ;
+  }
+
+  .exercise-div:hover{
+    background-color: #34397b;
+  }
+  
+  .social{
+    overflow: hidden;
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .social-svg{
+    overflow: hidden;
+    margin-top: -5px;
+    margin-right: 20px;
+    float: right;
+    width: 79px; 
+    height: 79px;
+  }
+  .social-div{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    bottom: 0px; 
+    width: 100%; 
+    height: 75%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 25px;
+    transition:  .3s ;
+  }
+
+  .social-div:hover{
+    background-color: #34397b;
+  }
+  
+  
+  .self-care{
+    overflow: hidden;
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 15px;
+    position: relative;
+  }
+
+  .self-svg{
+   
+    margin-right: 20px;
+    float: right;
+    width: 79px; 
+    height: 79px;
+  }
+  .self-div{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+    width: 100%; 
+    height: 75%;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 25px;
+    transition:  .3s ;
+  }
+
+  .self-div:hover{
+    background-color: #34397b;
+  }
+
+  .child-div{
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  .child-div-dot{
+    float: right;
+    margin-top: 3%;
+  }
+
+  .hours{
+    font-size: 40px;
+    margin-top: 10%;
+    font-weight: 300;
+  }
+
+  .past-time{
+    margin-top: 2%;
+    color: hsl(236, 100%, 87%);
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .grid-container{
+      grid-template-columns: auto;
+      margin-top: 20px;
+  }
+
+
+   .person{
+     margin: auto;
+   }
+
+   .name-div{
+    padding-bottom: 5%;
+    display: inline-block;
+    padding: 0px 0 10px;
+  }
+
+  .josh-img{
+    display: inline-block;
+  }
+
+   .josh-report{
+    font-size: 4vw;
+    padding-bottom: 10%;
+  }
+
+  .josh-name{
+    font-size: 5vw;
+    display: inline;
+  }
+
+  .change-time{
+    text-align: center;
+    text-align: left;
+  }
+
+  .change-time a{
+    display: inline-block;
+    font-size: 4vw;
+    
+  }
+
+  /* time tracking styles for small screen */
+
+    .grid-container-two{
+      grid-template-columns: auto;
+  }
+
+  .work-svg{
+    height: 20%;
+    overflow: hidden;
+   }
+   .play-svg{
+    height: 20%;
+    overflow: hidden;
+   }
+   .study-svg{
+    height: 20%;
+    overflow: hidden;
+   }
+   .exercise-svg{
+    height: 20%;
+    overflow: hidden;
+   }
+   .social-svg{
+    height: 20%;
+    overflow: hidden;
+   }
+   .self-svg{
+    height: 20%;
+    overflow: hidden;
+   }
+
+   .work-div{
+     height: 85%;
+     display: flex;
+   }
+   .play-div{
+    height: 85%;
+    display: flex;
+  }
+  .study-div{
+    height: 85%;
+    display: flex;
+  }
+  .exercise-div{
+    height: 85%;
+    display: flex;
+  }
+  .social-div{
+    height: 85%;
+    display: flex;
+  }
+  .self-div{
+    height: 85%;
+    display: flex;
+  }
+  .self-div{
+    height: 85%;
+    display: flex;
+   }
+
+  .svg-img{
+   width: 100%;
+   height: auto;
+  }
+
+  .hours{
+    display: inline-block;
+  }
+  .past-time{
+    display: inline-block;
+  }
+  
+  }

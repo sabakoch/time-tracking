@@ -1,0 +1,117 @@
+<HTML>
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" href="test.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Time Tracking</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+        <script src="js.js" ></script>
+    </head>
+
+    <body>
+
+        <div class="grid-container "> 
+
+            <!-- josh foto -->
+            <div class="josh">
+    
+                <div class="person">
+                    <img src="jeremy.png" alt="jeremy" class="josh-img">
+
+                    <div class="name-div">
+                        <p class="josh-report">Report for</p>
+                        <p class="josh-name1"><p class="josh-name">Jeremy</p>  <p class="josh-name">Robson</p> </p>
+                    </div>
+                </div>
+
+                <div class="change-time">
+                    <a href="#" id="dayBTN"   onclick="day()" style="color: white;">Daily</a>
+                    <a href="#" id="weekBTN"  onclick="week()" >week</a>
+                    <a href="#" id="monthBTN" onclick="month()" >Monthly</a>
+                </div>
+
+            </div>
+
+            <!-- time tracking -->
+            <div class="grid-container-two ">
+
+                <!-- ---work--- -->
+                <div class="work">
+                    <!-- colofur part of div -->
+                    <div class="work-svg"> <img class="svg-img" src="icon-work.svg"></div>
+                    <div class="work-div">
+                        <!-- colofur part of div -->
+                        <div class="child-div"><span >Work</span> <span class="child-div-dot"> <a href="#"><img src="dot.svg"></a></span></div>
+                        <div class="hours" data-houer id="workHr">5hrs</div>
+                        <div class="past-time" id="timeWork"> Last Day - 7hrs</div>
+                    </div>
+                </div>
+
+                <!-- ---play--- -->
+                <div class="play">
+                    <!-- colofur part of div -->
+                    <div class="play-svg"> <img class="svg-img" src="icon-play.svg"></div>
+                    <div class="play-div"> 
+                        <!-- colofur part of div -->
+                        <div class="child-div"><span >Play</span> <span class="child-div-dot"> <a href="#"><img src="dot.svg"></a></span></div>
+                        <div class="hours" data-houer id="playHr">1hr</div>
+                        <div class="past-time" id="timePlay">Last Day - 2hrs</div>
+                    </div>
+                </div>
+
+                <!-- ---study--- -->
+                <div class="study">
+                    <!-- colofur part of div -->
+                    <div class="study-svg"> <img class="svg-img" src="icon-study.svg"></div>
+                    <div class="study-div"> 
+                        <!-- colofur part of div -->
+                        <div class="child-div"><span >Study</span> <span class="child-div-dot"> <a href="#"><img src="dot.svg"></a></span></div>
+                        <div class="hours" data-houer id="studyHr">0hr</div>
+                        <div class="past-time" id="timeStudy">Last Day - 1hr</div>
+                    </div>
+                </div>
+
+                <!-- ---exercise--- -->
+                <div class="exercise">
+                    <!-- colofur part of div -->
+                    <div class="exercise-svg"> <img class="svg-img" src="icon-exercise.svg"></div>
+                    <div class="exercise-div"> 
+                        <!-- colofur part of div -->
+                        <div class="child-div"><span >Exercise</span> <span class="child-div-dot"> <a href="#"><img src="dot.svg"></a></span></div>
+                        <div class="hours" data-houer id="exerciseHr">1hr</div>
+                        <div class="past-time" id="timeExercise">Last Day - 1hr</div>
+                    </div>
+                </div>
+
+                <!-- ---social--- -->
+                <div class="social">
+                    <!-- colofur part of div -->
+                    <div class="social-svg"> <img class="svg-img" src="icon-social.svg"></div>
+                    <div class="social-div"> 
+                        <!-- colofur part of div -->
+                        <div class="child-div"><span >Social</span> <span class="child-div-dot"> <a href="#"><img src="dot.svg"></a></div>
+                        <div class="hours" data-houer id="socialHr">1hr</div>
+                        <div class="past-time" id="timeSocial">Last Day - 3hrs</div>
+                    </div>
+                </div>
+
+                <!-- ---self care--- -->
+                <div class="self-care">
+                    <!-- colofur part of div -->
+                    <div class="self-svg"> <img class="svg-img" src="icon-self-care.svg"></div>
+                    <div class="self-div"> 
+                        <!-- colofur part of div -->
+                        <div class="child-div"><span >Self Care</span> <span class="child-div-dot"> <a href="#"><img src="dot.svg"></a></div>
+                        <div class="hours" data-houer id="selfHr">0hr</div>
+                        <div class="past-time" id="timeSelf">Last Day - 1hr</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</HTML>
